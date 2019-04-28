@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SitecorePlugin PluginName="Your-PluginName" AssemblyName="Your-Plug-in-assembly" Version="1.0.0-r00001">
+
+  <!-- If there are no dependencies then simply use this one -->
+  <Dependencies/>
+
+  <!-- If your plug-in has dependencies then you list them here so they get loaded in order of dependencies
+  <Dependencies>
+    <Dependency name="Plug-in-your-plug-in-depends-on">1.0.0-r00001</Dependency>
+  </Dependencies>
+  -->
+  <Tags>
+    <!-- Add any of your other tags to make your plug-in easier to find -->
+    <Sitecore>Sitecore</Sitecore>
+  </Tags>
+</SitecorePlugin>
